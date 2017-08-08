@@ -17,7 +17,19 @@
             </intent-filter>
         </activity>
         <activity android:name=".first" />
-        <activity android:name=".main_story"></activity>
+        <activity android:name=".main_story" />
+        <activity android:name=".fourth" />
+        <activity android:name=".hint2" />
+        <activity android:name=".hint3" />
+        <activity android:name=".hint4" />
+        <activity android:name=".hint5" />
+        <activity android:name=".hint6" />
+        <activity android:name=".info" />
+        <activity android:name=".problem1" />
+        <activity android:name=".problem2" />
+        <activity android:name=".problem3" />
+        <activity android:name=".second" />
+        <activity android:name=".third" />
     </application>
 
 </manifest>

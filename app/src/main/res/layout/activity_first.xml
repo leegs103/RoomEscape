@@ -1,9 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.user.roomescape.first">
+    tools:context=".first"
+    android:gravity="center">
 
-</android.support.constraint.ConstraintLayout>
+    <AbsoluteLayout
+        android:id="@+id/AbsoluteLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/first">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_y="125dp"
+            android:src="@drawable/arrow_l"
+            android:background="@android:color/transparent"
+            android:onClick="moveSecond"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="620dp"
+            android:layout_y="125dp"
+            android:src="@drawable/arrow_r"
+            android:background="@android:color/transparent"
+            android:onClick="moveThird"/>
+
+        <Button
+            android:id="@+id/prob1"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_x="248dp"
+            android:layout_y="74dp"
+            android:background="@android:color/transparent"
+            android:onClick="callproblem1" />
+
+        <Button
+            android:id="@+id/prob2"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_x="470dp"
+            android:layout_y="83dp"
+            android:background="@android:color/transparent"
+            android:onClick="callproblem2"/>
+
+        <Button
+            android:id="@+id/prob3"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_x="383dp"
+            android:layout_y="163dp"
+            android:background="@android:color/transparent"
+            android:onClick="callproblem3"/>
+
+        <ImageButton
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/arrow_l"
+            android:background="@android:color/transparent"
+            android:onClick="backHome"/>
+
+    </AbsoluteLayout>
+</LinearLayout>
