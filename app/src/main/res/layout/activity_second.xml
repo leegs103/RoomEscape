@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".second"
+    android:gravity="center">
+
+    <AbsoluteLayout
+        android:id="@+id/AbsoluteLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/second">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="620dp"
+            android:layout_y="125dp"
+            android:background="@android:color/transparent"
+            android:onClick="moveFirst"
+            android:src="@drawable/arrow_r" />
+
+        <Button
+            android:layout_width="54dp"
+            android:layout_height="wrap_content"
+            android:layout_x="147dp"
+            android:layout_y="277dp"
+            android:background="@android:color/transparent"
+            android:onClick="hint1Click" />
+
+        <ImageButton
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/arrow_l"
+            android:background="@android:color/transparent"
+            android:onClick="backHome"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="54dp"
+            android:layout_height="wrap_content"
+            android:layout_x="408dp"
+            android:layout_y="251dp"
+            android:background="@android:color/transparent"
+            android:onClick="hint5Click" />
+
+    </AbsoluteLayout>
+</LinearLayout>

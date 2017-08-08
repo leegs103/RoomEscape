@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".first"
+    tools:context=".fourth"
     android:gravity="center">
 
     <AbsoluteLayout
         android:id="@+id/AbsoluteLayout1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/first">
+        android:layout_height="match_parent"
+        android:background="@drawable/fourth">
 
         <ImageButton
             android:layout_width="wrap_content"
@@ -19,43 +19,23 @@
             android:layout_y="125dp"
             android:src="@drawable/arrow_l"
             android:background="@android:color/transparent"
-            android:onClick="moveSecond"/>
-
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_x="620dp"
-            android:layout_y="125dp"
-            android:src="@drawable/arrow_r"
-            android:background="@android:color/transparent"
             android:onClick="moveThird"/>
 
         <Button
-            android:id="@+id/prob1"
             android:layout_width="50dp"
             android:layout_height="wrap_content"
-            android:layout_x="248dp"
-            android:layout_y="74dp"
+            android:layout_x="231dp"
+            android:layout_y="227dp"
             android:background="@android:color/transparent"
-            android:onClick="callproblem1" />
+            android:onClick="hint3Click" />
 
         <Button
-            android:id="@+id/prob2"
             android:layout_width="50dp"
             android:layout_height="wrap_content"
-            android:layout_x="470dp"
-            android:layout_y="83dp"
+            android:layout_x="580dp"
+            android:layout_y="20dp"
             android:background="@android:color/transparent"
-            android:onClick="callproblem2"/>
-
-        <Button
-            android:id="@+id/prob3"
-            android:layout_width="50dp"
-            android:layout_height="wrap_content"
-            android:layout_x="383dp"
-            android:layout_y="163dp"
-            android:background="@android:color/transparent"
-            android:onClick="callproblem3"/>
+            android:onClick="hint4Click" />
 
         <ImageButton
             android:layout_width="32dp"
@@ -63,6 +43,5 @@
             android:src="@drawable/arrow_l"
             android:background="@android:color/transparent"
             android:onClick="backHome"/>
-
     </AbsoluteLayout>
 </LinearLayout>
