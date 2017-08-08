@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".third"
+    android:gravity="center">
+
+    <AbsoluteLayout
+        android:id="@+id/AbsoluteLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/third">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_y="125dp"
+            android:src="@drawable/arrow_l"
+            android:background="@android:color/transparent"
+            android:onClick="moveFirst"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="620dp"
+            android:layout_y="125dp"
+            android:src="@drawable/arrow_r"
+            android:background="@android:color/transparent"
+            android:onClick="moveFourth" />
+
+        <Button
+            android:layout_width="54dp"
+            android:layout_height="wrap_content"
+            android:layout_x="267dp"
+            android:layout_y="176dp"
+            android:background="@android:color/transparent"
+            android:onClick="hint2Click" />
+
+        <ImageButton
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/arrow_l"
+            android:background="@android:color/transparent"
+            android:onClick="backHome"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="54dp"
+            android:layout_height="wrap_content"
+            android:layout_x="484dp"
+            android:layout_y="112dp"
+            android:background="@android:color/transparent"
+            android:onClick="hint6Click" />
+
+
+    </AbsoluteLayout>
+</LinearLayout>

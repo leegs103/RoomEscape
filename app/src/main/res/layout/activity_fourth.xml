@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fourth"
+    android:gravity="center">
+
+    <AbsoluteLayout
+        android:id="@+id/AbsoluteLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fourth">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_y="125dp"
+            android:src="@drawable/arrow_l"
+            android:background="@android:color/transparent"
+            android:onClick="moveThird"/>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_x="231dp"
+            android:layout_y="227dp"
+            android:background="@android:color/transparent"
+            android:onClick="hint3Click" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_x="580dp"
+            android:layout_y="20dp"
+            android:background="@android:color/transparent"
+            android:onClick="hint4Click" />
+
+        <ImageButton
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/arrow_l"
+            android:background="@android:color/transparent"
+            android:onClick="backHome"/>
+    </AbsoluteLayout>
+</LinearLayout>
