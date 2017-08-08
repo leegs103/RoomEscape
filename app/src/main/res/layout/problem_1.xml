@@ -1,9 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.example.user.roomescape.problem1">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
 
-</android.support.constraint.ConstraintLayout>
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/re_problem1"/>
+    <LinearLayout
+        android:layout_width="435dp"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <EditText
+            android:id="@+id/editnum1"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:inputType="number"/>
+        <EditText
+            android:id="@+id/editnum2"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:inputType="number"/>
+        <EditText
+            android:id="@+id/editnum3"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:inputType="number"/>
+        <EditText
+            android:id="@+id/editnum4"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:inputType="number"/>
+        <EditText
+            android:id="@+id/editnum5"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:inputType="number"/>
+        <EditText
+            android:id="@+id/editnum6"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:inputType="number"/>
+        <EditText
+            android:id="@+id/editnum7"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:inputType="number"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/cfbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="입력"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/clbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="취소"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
+
